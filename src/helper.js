@@ -3,6 +3,7 @@ const helperFunc = apiArray => {
         return {
             name : e.name,
             birth_year : e.birth_year,
+            gender : e.gender,
         }
     });
 
