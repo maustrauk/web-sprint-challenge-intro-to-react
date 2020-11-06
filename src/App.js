@@ -4,6 +4,7 @@ import axios from "axios";
 
 import {API_URL} from "./const/const.js";
 import Characters from "./components/Characters.js";
+import helperFunc from "./helper.js";
 
 import './App.css';
 
@@ -21,7 +22,8 @@ const App = () => {
     axios
     .get(`${API_URL}people/`)
     .then(res => {
-      setListOfCharacters(res.data.results);
+      const data = res.data.results;
+      setListOfCharacters(helperFunc(data));
     })
     .catch(err => {
       console.log("Error: ",err);

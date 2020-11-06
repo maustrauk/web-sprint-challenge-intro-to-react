@@ -30,6 +30,12 @@ const StyledCharacter = styled.div`
 
 const StyledCharName = styled.div`
     font-size: 1.1em;
+    margin-left: .5em;
+    &:hover {
+        transform: scale(1.085);
+        transition: transform 1.5s ease-in-out;
+    }
+    transition: transform 1.5s ease-in-out;
 `;
 
 const StyledYear = styled.div`
