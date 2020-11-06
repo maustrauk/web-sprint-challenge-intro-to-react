@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@900&display=swap');
+
 .App {
   text-align: center;
 }
 .Header {
-  color: #443e3e;
+  color: #e1e8f2;
   text-shadow: 1px 1px 5px #fff;
+  font-family: 'Big Shoulders Inline Text', cursive;
 }
 /* write your parent styles in here for your App.js */
